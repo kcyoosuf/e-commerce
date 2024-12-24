@@ -1,0 +1,38 @@
+{
+  "home": {
+    "title": "Welcome to Our Website",
+    "description": "Discover amazing content and features tailored for you.",
+    "keywords": "homepage, welcome, amazing features",
+    "ogImage": "/images/home-og.jpg",
+    "canonicalUrl": "https://example.com/",
+    "twitterHandle": "@example",
+    "ogType": "website",
+    "locale": "en_US",
+    "noindex": false,
+    "structured": {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Welcome to Our Website",
+      "description": "Discover amazing content and features tailored for you."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "description": "Explore our wide range of products tailored to your needs.",
+    "keywords": "products, catalog, ecommerce",
+    "ogImage": "/images/products-og.jpg",
+    "canonicalUrl": "https://example.com/products",
+    "ogType": "product",
+    "locale": "en_US",
+    "noindex": false
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Learn more about our mission, values, and team.",
+    "keywords": "about us, mission, values, team",
+    "ogImage": "/images/about-og.jpg",
+    "canonicalUrl": "https://example.com/about",
+    "ogType": "article",
+    "locale": "en_US"
+  }
+}
