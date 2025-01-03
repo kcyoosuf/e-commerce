@@ -9,9 +9,9 @@ import "swiper/css/pagination";
 
 const Carousel = () => {
   const slides = [
-    { id: 1, image: "https://picsum.photos/1280/720", title: "Car 1" },
-    { id: 2, image: "https://picsum.photos/1281/721", title: "Car 2" },
-    { id: 3, image: "https://picsum.photos/1282/722", title: "Car 3" },
+    { id: 1, image: "https://placehold.co/1280x720?text=Title+One", title: "Title 1" },
+    { id: 2, image: "https://placehold.co/1280x720?text=Title+Two", title: "Title 2" },
+    { id: 3, image: "https://placehold.co/1280x720?text=Title+Three", title: "Title 3" },
   ];
 
   return (

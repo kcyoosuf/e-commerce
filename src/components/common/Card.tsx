@@ -1,3 +1,4 @@
+
 type CardProps = {
   title: string;
   subTitle?: string;
@@ -16,7 +17,7 @@ const Card = ({
   return (
     <button
       onClick={onClick}
-      className="rounded shadow-lg overflow-hidden w-full bg-white flex flex-col transition-all duration-200 hover:bg-slate-100 hover:scale-105"
+      className="rounded shadow-lg overflow-hidden w-full bg-white flex flex-col transition-all duration-200 hover:bg-gray-100 hover:scale-105 h-full"
     >
       <div className="relative w-full">
         <img
